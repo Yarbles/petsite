@@ -1,0 +1,3 @@
+[submodule "sites/all/modules/groceries"]
+	path = sites/all/modules/groceries
+	url = https://github.com/Yarbles/groceries_module.git
