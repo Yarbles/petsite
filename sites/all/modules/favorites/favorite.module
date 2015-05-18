@@ -1,0 +1,37 @@
+<?php
+function favorite_menu() {
+    $items = array();
+    $items['movies'] = array (
+        'title' => 'Movies',
+        'page callback' => 'movies',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+
+    $items['books'] = array (
+        'title' => 'Books',
+        'page callback' => 'books',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+
+    $items['songs'] = array (
+        'title' => 'Songs',
+        'page callback' => 'songs',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function movies() {
+    return '<p>Ghostbusters</p><p>Star Wars: A New Hope</p><p>Mulholland Dr.</p>';
+}
+
+function books() {
+    return '<p>Fight Club</p><p>The Stranger</p><p>The Great Gatsby</p>';
+}
+
+function songs() {
+    return '<p>Sandstorm by Darude</p><p>Amish Paradise</p><p>Regulate by Nate Dogg and Warren G</p>';
+}
