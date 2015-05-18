@@ -11,5 +11,5 @@ function pet_menu() {
 }
 
 function hello_dave() {
-    return '<p>This is Dave. He is a cat. He loves watching hockey. <img src ="http://cdn1.bloguin.com/puckdrunklove/wp-content/uploads/sites/17/2013/02/Davethehockeywatchingcat.jpg"></p>';
+    return '<p>This is <a href="https://www.youtube.com/watch?v=gAmNoFO_fag">Dave</a>. He is a cat. He loves watching hockey. <img src ="http://cdn1.bloguin.com/puckdrunklove/wp-content/uploads/sites/17/2013/02/Davethehockeywatchingcat.jpg"></p>';
 }
