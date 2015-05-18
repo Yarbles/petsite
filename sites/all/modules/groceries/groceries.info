@@ -1,0 +1,5 @@
+name = Groceries
+description = A list of some cool edible stuff
+package = Epicodus Examples
+core = 7.x
+files[] = groceries.module
