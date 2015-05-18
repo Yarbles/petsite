@@ -1,0 +1,15 @@
+<?php
+function petsite_menu() {
+    $items = array();
+    $items['dave_the_cat'] = array(
+        'title' => "Dave the Cat",
+        'page callback' => "hello_dave",
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return items;
+}
+
+function hello_dave() {
+    return '<p>This is Dave. He is a cat. He loves watching hockey. <img src = "http://cdn1.bloguin.com/puckdrunklove/wp-content/uploads/sites/17/2013/02/Davethehockeywatchingcat.jpg"></p>';
+}

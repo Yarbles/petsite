@@ -1,0 +1,5 @@
+name = Petsite
+description = information about Dave the cat
+package = Epicodus Examples
+core = 7.x
+files[] = pet.module
